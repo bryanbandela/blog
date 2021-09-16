@@ -10,6 +10,7 @@ export default function NotFoundPage() {
           src="/images/logo.png"
           width={70}
           height={70}
+          alt="logo"
           className="bg-gray-800 rounded-2xl"
         />
 
