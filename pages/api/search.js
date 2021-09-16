@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-export default const search = (req, res) => {
+export default function search (req, res) => {
   let posts
 
   if (process.env.NODE_ENV === 'production') {
