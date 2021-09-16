@@ -28,7 +28,7 @@ export default function PostPage({
             width={10}
             height={10}
               src={author_image}
-              alt=""
+              alt="author-image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
             />
             <h4>{author}</h4>
